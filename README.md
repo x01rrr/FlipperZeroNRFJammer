@@ -1,2 +1,2 @@
-# FlipperZeroNRFJammer
-Simple Flipper Zero nRF24 jammer for the 2.4Ghz spectrum
+# Flipper Zero nRF24 Jammer
+Simple Flipper Zero nRF24 jammer for the 2.4Ghz spectrum. Turn your Flipper Zero into a bluetooth jammer. Works with the [latest Unleashed firmware](https://github.com/Eng1n33r/flipperzero-firmware). See the release on how to install the external app on the sdcard. For building instructions please refer the [official FAP guide](https://github.com/Eng1n33r/flipperzero-firmware/blob/dev/documentation/AppsOnSDCard.md).
