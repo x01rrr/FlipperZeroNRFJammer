@@ -166,7 +166,7 @@ static int32_t mj_worker_thread(void* ctx) {
 	    // change channel
             nrf24_write_reg(nrf24_HANDLE, REG_RF_CH, chan);
             // push new data to the TX register
-            nrf24_spi_trx(nrf24_HANDLE, tx, 0, 2, nrf24_TIMEOUT);
+            nrf24_spi_trx(nrf24_HANDLE, tx, 0, 3, nrf24_TIMEOUT);
         }
     } while(!plugin_state->close_thread_please);
     
