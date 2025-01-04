@@ -148,7 +148,7 @@ static int32_t mj_worker_thread(void* ctx) {
     // various types of hopping I empirically found
     uint8_t hopping_channels_2[128];
     for(int i = 0; i < 128; i++) hopping_channels_2[i] = i;
-    uint8_t hopping_channels_1[] = {32,34, 46,48, 50, 52, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 22, 24, 26, 28, 30, 74, 76, 78, 80, 82, 84,86 };
+    uint8_t hopping_channels_1[] = {32,34, 46,48, 50, 52, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 22, 24, 26, 28, 30, 74, 76, 78, 80, 82, 84,86 };
     uint8_t hopping_channels_0[] = {2, 26, 80};
     uint8_t hopping_channels_len[] = {3, 24, 124};
 
